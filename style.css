@@ -56,6 +56,7 @@ h2 {
 
 .social-links {
     margin-top: 15px;
+    text-align: right;
 }
 
 .social-links a {
@@ -76,6 +77,9 @@ h2 {
     border-radius: 5px;
     padding: 15px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .my-work-item img {
