@@ -109,6 +109,16 @@ h2 {
         text-align: center;
     }
 
+    .about-me-text .social-links {
+        display: none;
+    }
+
+    .my-work-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
     .my-work-container {
         grid-template-columns: 1fr;
     }
